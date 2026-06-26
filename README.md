@@ -36,6 +36,22 @@ post_xxxxxx/
 
 `asset/` is free-form. Final publish files must be copied into `yixiaoer/<platform>/`.
 
+## Dropbox Template Zip
+
+For editors who start work before Codex creates a package, use the empty template zip:
+
+```text
+release/yixiaoer-post-package-template.zip
+```
+
+Workflow:
+
+1. Download or copy the zip into Dropbox.
+2. Unzip it.
+3. Rename `post_package_template/` to the real content folder, such as `post_260701_demo/`.
+4. Put working materials anywhere under `asset/`.
+5. Put final platform exports under `yixiaoer/<platform>/video/` and `yixiaoer/<platform>/cover/`.
+
 ## Common Prompts
 
 ```text

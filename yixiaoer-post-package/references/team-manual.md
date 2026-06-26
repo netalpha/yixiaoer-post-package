@@ -18,10 +18,19 @@
 
 你的目标是交付“各平台最终版本”。
 
-1. 拿到项目包，例如 `post_260701_demo/`。
+如果项目包已经存在：
+
+1. 直接进入项目包，例如 `post_260701_demo/`。
 2. 把原始素材、工程文件、参考资料随便放进 `asset/`。
 3. 按平台导出最终视频和封面。
 4. 把最终文件放到对应平台目录。
+
+如果项目包还不存在：
+
+1. 从 Dropbox 获取 `yixiaoer-post-package-template.zip`。
+2. 解压后得到 `post_package_template/`。
+3. 把文件夹改名成实际内容名，例如 `post_260701_demo/`。
+4. 后续同样把过程素材放到 `asset/`，把最终版本放到 `yixiaoer/<platform>/`。
 
 最终文件位置：
 
@@ -140,6 +149,12 @@ yxer doctor
 
 ```text
 用 yixiaoer-post-package 创建一个新发布包，路径是 /Users/xxx/Desktop/post_260701_demo
+```
+
+给剪辑同学准备 Dropbox 空模板：
+
+```text
+使用仓库里的 release/yixiaoer-post-package-template.zip，上传到 Dropbox 供团队复制解压。
 ```
 
 ## 管理者验收清单
