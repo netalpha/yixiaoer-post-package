@@ -1,0 +1,73 @@
+{
+  "_do_not_modify_comment": "唯一手动配置文件：只改标有 TODO 或 null 的业务值。不要根据平台文件夹是否有素材自动发布。",
+  "_edit_me_comment": "常用操作：1) 修改 enabledPlatforms；2) 修改 common.title/common.description；3) 如某平台需要特殊标题文案，在 platforms.<key> 中覆盖。",
+  "enabledPlatforms": [
+    "douyin"
+  ],
+  "availablePlatforms": {
+    "douyin": "抖音",
+    "kuaishou": "快手",
+    "xiaohongshu": "小红书"
+  },
+  "execution": {
+    "mode": "publish-selected-platforms-only",
+    "requireDryRunBeforePublish": true,
+    "requireConfirmBeforePublish": true,
+    "defaultPublishChannel": "cloud"
+  },
+  "common": {
+    "_edit_me_comment": "这里是全平台默认值。平台配置里的非 null 字段会覆盖这里。",
+    "type": "video",
+    "title": "TODO: 填写通用标题",
+    "description": "TODO: 填写通用文案",
+    "schedule": null,
+    "publishChannel": null,
+    "allowDescriptionRewrite": false
+  },
+  "platforms": {
+    "douyin": {
+      "platform": "抖音",
+      "account": "时光的糖果",
+      "title": null,
+      "description": null,
+      "schedule": null,
+      "publishChannel": null,
+      "options": {
+        "location": null,
+        "music": null,
+        "collection": null,
+        "challenge": null,
+        "goods": null
+      }
+    },
+    "kuaishou": {
+      "platform": "快手",
+      "account": null,
+      "title": null,
+      "description": null,
+      "schedule": null,
+      "publishChannel": null,
+      "options": {
+        "location": null,
+        "music": null,
+        "collection": null,
+        "challenge": null,
+        "goods": null
+      }
+    },
+    "xiaohongshu": {
+      "platform": "小红书",
+      "account": null,
+      "title": null,
+      "description": null,
+      "schedule": null,
+      "publishChannel": null,
+      "options": {
+        "location": null,
+        "collection": null,
+        "goods": null,
+        "topics": null
+      }
+    }
+  }
+}

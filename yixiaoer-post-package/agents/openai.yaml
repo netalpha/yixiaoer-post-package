@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yixiaoer Post Package"
+  short_description: "Create and publish Yixiaoer package folders"
+  default_prompt: "Use $yixiaoer-post-package to create, inspect, or publish a Yixiaoer post package folder."
