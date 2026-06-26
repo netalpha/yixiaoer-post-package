@@ -46,6 +46,14 @@ Use $yixiaoer-post-package to create a new package at /Users/me/Desktop/post_260
 Use $yixiaoer-post-package to inspect /Users/me/Desktop/post_260701_demo
 ```
 
+Inspection only checks folder structure, enabled platforms, final videos, and final covers. It does not upload files or call publish APIs.
+
+```text
+Use $yixiaoer-post-package to dry-run /Users/me/Desktop/post_260701_demo
+```
+
+Dry-run enters the real `yixiaoer` / `yxer` pre-publish workflow: account checks, prepare, schema fields, upload, payload generation, validate, and `publish --dry-run`. It does not formally publish.
+
 ```text
 Use $yixiaoer-post-package to publish /Users/me/Desktop/post_260701_demo
 ```
