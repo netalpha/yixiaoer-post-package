@@ -24,17 +24,22 @@ yxer doctor
 post_xxxxxx/
   asset/
   yixiaoer/
+    简易发布配置.md
     config.json
     notes.md
-    douyin/video/main.mp4
-    douyin/cover/main.jpg
-    kuaishou/video/main.mp4
-    kuaishou/cover/main.jpg
-    xiaohongshu/video/main.mp4
-    xiaohongshu/cover/main.jpg
+    douyin/video/<one final .mp4 or .mov>
+    douyin/cover/<one final .jpg/.jpeg/.png/.webp>
+    kuaishou/video/<one final .mp4 or .mov>
+    kuaishou/cover/<one final .jpg/.jpeg/.png/.webp>
+    xiaohongshu/video/<one final .mp4 or .mov>
+    xiaohongshu/cover/<one final .jpg/.jpeg/.png/.webp>
 ```
 
-`asset/` is free-form. Final publish files must be copied into `yixiaoer/<platform>/`.
+`asset/` is free-form. Final publish files must be copied into `yixiaoer/<platform>/video/` and `yixiaoer/<platform>/cover/`.
+
+Team members can fill `yixiaoer/简易发布配置.md`. If that file is absent, the workflow uses `yixiaoer/config.json` directly.
+
+For each enabled platform, keep exactly one final video and one final cover. File names do not matter.
 
 ## Dropbox Template Zip
 
@@ -51,6 +56,7 @@ Workflow:
 3. Rename `post_package_template/` to the real content folder, such as `post_260701_demo/`.
 4. Put working materials anywhere under `asset/`.
 5. Put final platform exports under `yixiaoer/<platform>/video/` and `yixiaoer/<platform>/cover/`.
+6. Fill `yixiaoer/简易发布配置.md`, or remove it and maintain `yixiaoer/config.json` directly.
 
 ## Common Prompts
 
