@@ -1,6 +1,6 @@
 {
-  "_do_not_modify_comment": "唯一手动配置文件：只改标有 TODO 或 null 的业务值。不要根据平台文件夹是否有素材自动发布。",
-  "_edit_me_comment": "常用操作：1) 修改 enabledPlatforms；2) 修改 common.title/common.description；3) 如某平台需要特殊标题文案，在 platforms.<key> 中覆盖。",
+  "_do_not_modify_comment": "机器配置文件：优先由 yixiaoer/简易发布配置.md 同步生成；如果该文件不存在，则直接使用本文件。",
+  "_edit_me_comment": "同步来源：发布平台、发布账户、标题、描述、发布时间、是否挂预约卡、是否挂小黄车。平台目录只需保留 1 个视频和 1 张封面，文件名不强制为 main.*。",
   "enabledPlatforms": [
     "douyin"
   ],
@@ -16,10 +16,10 @@
     "defaultPublishChannel": "cloud"
   },
   "common": {
-    "_edit_me_comment": "这里是全平台默认值。平台配置里的非 null 字段会覆盖这里。",
+    "_edit_me_comment": "这里可由简易发布配置.md 同步。平台配置里的非 null 字段会覆盖这里。",
     "type": "video",
-    "title": "TODO: 填写通用标题",
-    "description": "TODO: 填写通用文案",
+    "title": "TODO: 从简易发布配置.md 同步标题，或直接在 config.json 填写",
+    "description": "TODO: 从简易发布配置.md 同步描述，或直接在 config.json 填写",
     "schedule": null,
     "publishChannel": null,
     "allowDescriptionRewrite": false
@@ -27,7 +27,7 @@
   "platforms": {
     "douyin": {
       "platform": "抖音",
-      "account": "时光的糖果",
+      "account": null,
       "title": null,
       "description": null,
       "schedule": null,
